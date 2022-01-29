@@ -98,7 +98,6 @@ public class EnemyHealth : MonoBehaviour, IEnemyDamage
 
         #region Enemy Health Bar Filling
 
-        #endregion
         if (_enemy.CompareTag("TierOneEnemy"))
         {
             _healthBar.fillAmount = _enemyHP / 10f;
