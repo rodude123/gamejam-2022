@@ -1,0 +1,155 @@
+{
+    "name": "MasterInputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "3753bda4-ccdb-47cc-80da-0cefb61aebec",
+            "actions": [
+                {
+                    "name": "Moevement",
+                    "type": "PassThrough",
+                    "id": "38a0e659-2d63-4c6a-aa28-440002485d94",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "6495ba2d-d189-441a-9dfd-de8939341a4e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moevement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "3e888fab-931e-4663-8a23-a24be320bf6b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "036afdb1-088a-4489-bd90-0f4401d61678",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "4575fdd9-2c81-40bc-ba84-127881535ca8",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "bff72248-3460-45a8-aae7-b7290a9c6a3f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Dpad",
+                    "id": "eaa7837f-380a-4a67-80a7-808590be534e",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moevement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "dc8ccd2c-112d-44fb-b704-19110342eea2",
+                    "path": "gamepad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Game Pad",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "13a07c4d-5146-4608-9081-3cab63bde816",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Game Pad",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "faafa66c-1c51-4889-aedb-e0de1b7d1563",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Game Pad",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "0c89f267-6706-4f2f-8c4a-ab8f0ea7dc19",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Game Pad",
+                    "action": "Moevement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Game Pad",
+            "bindingGroup": "Game Pad",
+            "devices": []
+        }
+    ]
+}
